@@ -1,6 +1,9 @@
-def length3(x, y, z):
+def length3(w):
     
-     len(x + y + z)
+    for i in range(0, len(w)):
+        if w[i] == "l":
+            return True
 
+    return False 
 
-print(length3("jedi", + "sith", + "force"))
+print (length3("lightsaber"))
